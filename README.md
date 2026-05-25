@@ -12,6 +12,10 @@ GELU (Gaussian Error Linear Unit) 是一种广泛应用于 Transformer 架构（
 `GELU(x) = x * Phi(x)`
 其中，`Phi(x)` 为标准正态分布的累积分布函数。
 
+$$\text{GELU}(x) = x \cdot \Phi(x)$$
+
+$$\Phi(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} \exp\left(-\frac{t^2}{2}\right) dt$$
+
 ## ⚙️ 环境要求 (Prerequisites)
 
 - **硬件:** Orange Pi AI Pro (昇腾 310B 系列芯片) / 其他 Ascend NPU
